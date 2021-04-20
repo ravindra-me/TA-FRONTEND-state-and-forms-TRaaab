@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="root"></div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+      let img = document.querySelector(".img");
+      class Image extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {
+            url: "../assets/tiger.jpg",
+          };
+        }
+        tiger = () => {
+          this.setState({
+            url: "../assets/tiger.jpg",
+          });
+          console.log(this.state.url);
+        };
+        laptop = () => {
+          this.setState({
+            url: "../assets/laptop.jpg",
+          });
+          console.log(this.state.url);
+        };
+        basketball = () => {
+          this.setState({
+            url: "../assets/basketball.jpg",
+          });
+          console.log(this.state.url);
+        };
+        cricket = () => {
+          this.setState({
+            url: "../assets/cricket.jpg",
+          });
+          console.log(this.state.url);
+        };
+        phone = () => {
+          this.setState({
+            url: "../assets/phone.jpg",
+          });
+          console.log(this.state.url);
+        };
+        pubg = () => {
+          this.setState({
+            url: "../assets/pubg.jpeg",
+          });
+          console.log(this.state.url);
+        };
+
+        render() {
+          return (
+            <>
+              {[
+                "Tiger",
+                "Basketball",
+                "PubG",
+                "Laptop",
+                "Cricket",
+                "Phone",
+              ].map((ele, i) => {
+                ele = ele.toLocaleLowerCase();
+                console.log(ele);
+                return (
+                  <button onClick={this[ele]} key={i}>
+                    {ele}
+                  </button>
+                );
+              })}
+              {console.log(this.state.url)}
+              <div
+                className="img"
+                style={{
+                  background: `url(${this.state.url}) center`,
+                }}
+              ></div>
+            </>
+          );
+        }
+      }
+
+      ReactDOM.render(<Image />, document.querySelector(".root"));
+    </script>
+  </body>
+</html>
