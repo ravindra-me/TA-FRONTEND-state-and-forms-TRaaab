@@ -4,32 +4,42 @@ import { questions } from "./data";
 class Accordion extends React.Component {
   constructor(props) {
     super();
-    this.state = { isTrue: false };
+    this.state = { activeIndex: null };
   }
 
   isHandelClick = () => {
     console.log("he");
     this.setState({
-      isTrue: !this.state.isTrue,
+      isTrue: null,
     });
   };
 
   render() {
-    return questions.map((ele, i) => {
-      return (
-        <>
-          <div key={i}>
-            <div onClick={this.isHandelClick}>
-              <label>{ele.Q}</label>
-              <input type="checkbox" />
-            </div>
-            <div className={this.state.isTrue ? "" : "display-none"}>
-              <p> {ele.A}</p>
-            </div>
-          </div>
-        </>
-      );
-    });
+    return (
+      <>
+        <ul>
+          {questions.map((ele, index) => {
+            return (
+              <>
+                <li>
+                  <h2
+                    onClick={() => {
+                      this.setState({
+                        activeIndex:
+                          this.state.activeIndex === index ? null : index,
+                      });
+                    }}
+                  >
+                    {ele.Q} {index === this.state.activeIndex ? "Hide" : "Show"}
+                  </h2>
+                  {this.state.activeIndex === index && <p>{ele.A}</p>}
+                </li>
+              </>
+            );
+          })}
+        </ul>
+      </>
+    );
   }
 }
 
