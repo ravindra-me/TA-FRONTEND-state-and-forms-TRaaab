@@ -1,0 +1,32 @@
+[
+    {
+        "font-family": "sans-serif",
+        "name": "Poppins",
+        "styles": 18
+    },
+    {
+        "font-family": "sans-serif",
+        "name": "Roboto",
+        "styles": 12
+    },
+    {
+        "font-family": "cursive",
+        "name": "Orelega-One",
+        "styles": 1
+    },
+    {
+        "font-family": "sans-serif",
+        "name": "Open-Sans",
+        "styles": 10
+    },
+    {
+        "font-family": "sans-serif",
+        "name": "Source-Sans-Pro",
+        "styles": 12
+    },
+    {
+        "font-family": "sans-serif",
+        "name": "Ubuntu",
+        "styles": 8
+    }
+]

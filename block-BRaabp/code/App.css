@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Orelega+One&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.input-text {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+
+.flex-40 {
+  flex: 0 1 40%;
+}
+.width-100 {
+  display: block;
+  width: 100%;
+}
+.flex-31 {
+  flex: 0 1 31%;
+}
+article {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+article h4 {
+  margin-bottom: 2rem;
+}
