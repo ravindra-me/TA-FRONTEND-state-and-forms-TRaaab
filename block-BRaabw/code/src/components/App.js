@@ -10,7 +10,28 @@ class App extends React.Component {
       sizes: [],
       cartItem: [],
     };
+    this.eventID = null;
   }
+
+  componentDidMount() {
+    if (localStorage.carts) {
+      this.setState({
+        cartItem: JSON.parse(localStorage.carts) || [],
+      });
+    }
+    this.eventID = window.addEventListener(
+      "beforeunload",
+      this.handleUpdateLocalStorage
+    );
+  }
+  componentWillUnmount() {
+    window.removeEventListener("beforeunload", this.handleUpdateLocalStorage);
+  }
+
+  handleUpdateLocalStorage = () => {
+    localStorage.setItem("carts", JSON.stringify(this.state.cartItem));
+  };
+
   handleClick = (size) => {
     if (this.state.sizes.includes(size)) {
       this.setState((preState) => ({
