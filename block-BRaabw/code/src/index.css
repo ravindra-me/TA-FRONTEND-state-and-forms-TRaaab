@@ -1,0 +1,376 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+.font-0 {
+  font-size: 0;
+}
+.flex-31 {
+  flex: 0 1 31%;
+}
+
+.flex-58 {
+  flex: 0 1 58%;
+}
+.flex-20 {
+  flex: 0 1 20%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-70 {
+  flex: 0 1 100%;
+}
+.flex-15 {
+  flex: 0 1 15%;
+}
+.sidebar {
+  margin-top: 10rem;
+}
+.sidebar span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+}
+
+.main {
+  margin-top: 5rem;
+}
+.flex-23 {
+  flex: 0 1 23%;
+}
+
+.cart-item {
+  margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.cart-item button {
+  padding: 0.5rem 1rem;
+}
+.grid {
+  display: grid;
+}
+.grid-template-column {
+  grid-template-columns: repeat(4, 1fr);
+}
+.gap {
+  gap: 1rem;
+}
+.product-container {
+  margin-top: 4rem;
+}
+
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.free-shipping {
+  top: 0%;
+  right: 0%;
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+.ternary-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.order-container {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.order-container select {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 0.125rem;
+}
+.active {
+  background-color: yellow;
+  color: black;
+}
+.line {
+  width: 30%;
+  margin: 0 auto;
+  background: yellow;
+  height: 1px;
+  margin: 0.5rem auto;
+}
+button {
+  margin-top: 0.5rem;
+}
+.close {
+  background: black;
+  top: 0;
+  right: 2%;
+  padding: 1rem;
+}
+.close span {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  top: 70%;
+  right: 0%;
+}
+.position-fixed {
+  position: fixed;
+}
+
+.open-sidebar {
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background: black;
+  color: white;
+}
+.close-btn {
+  width: 40px;
+  height: 40px;
+  left: -40px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-body {
+  margin-top: 5rem;
+  border-bottom: 2px solid rgb(54, 54, 54);
+  padding-bottom: 2rem;
+}
+
+.cart-icon span {
+  width: 20px;
+  height: 20px;
+  bottom: -1%;
+  right: 2%;
+  background: yellow;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.secondary-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 2rem;
+}
+.open-sidebar article {
+  padding: 0.5rem;
+}
+
+.cart-items {
+  height: 50%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.cart-item-name {
+  margin: 1rem 0;
+}
+.quantity {
+  margin-top: 1rem;
+}
+.cart-article img {
+  margin-right: 0.5rem;
+}
+.price {
+  color: lightgoldenrodyellow;
+  margin-left: 0.5rem;
+}
+.total {
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.open-sidebar .checkout {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  background: rgb(54, 53, 53);
+  outline: none;
+  border: none;
+  padding: 1rem;
+}
+.flex-column {
+  flex-direction: column;
+}
+.change-qunat svg {
+  background: lightslategray;
+}
