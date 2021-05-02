@@ -1,7 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-export default function App() {
-  return <div>Hello World!</div>;
-}
-
+import { Sidebar } from "./components/Aside";
+import data from "./data.json";
+import "./index.css";
+import Main from "./components/Main";
+import App from "./components/App";
 render(<App />, document.getElementById("root"));

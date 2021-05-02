@@ -1,7 +1,10 @@
 {
   "products": [
     {
-      "availableSizes": ["S", "XS"],
+      "availableSizes": [
+        "S",
+        "XS"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "4 MSL",
@@ -11,10 +14,13 @@
       "price": 10.9,
       "sku": 12064273040195392,
       "style": "Black with custom print",
-      "title": "Cat Tee Black T-Shirt"
+      "title": "Cat Tee Black T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["M"],
+      "availableSizes": [
+        "M"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "",
@@ -24,10 +30,15 @@
       "price": 29.45,
       "sku": 51498472915966370,
       "style": "Front print and paisley print",
-      "title": "Dark Thug Blue-Navy T-Shirt"
+      "title": "Dark Thug Blue-Navy T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L", "XL"],
+      "availableSizes": [
+        "X",
+        "L",
+        "XL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "GPX Poly 1",
@@ -37,10 +48,16 @@
       "price": 9,
       "sku": 10686354557628304,
       "style": "Front tie dye print",
-      "title": "Sphynx Tie Dye Wine T-Shirt"
+      "title": "Sphynx Tie Dye Wine T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "Treino 2014",
@@ -50,10 +67,14 @@
       "price": 14,
       "sku": 11033926921508488,
       "style": "Black T-Shirt with front print",
-      "title": "Skuul"
+      "title": "Skuul",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L"],
+      "availableSizes": [
+        "X",
+        "L"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "",
@@ -63,10 +84,16 @@
       "price": 13.25,
       "sku": 39876704341265610,
       "style": "Wine",
-      "title": "Wine Skul T-Shirt"
+      "title": "Wine Skul T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "14/15 s/nº",
@@ -76,10 +103,16 @@
       "price": 10.9,
       "sku": 8552515751438644,
       "style": "Branco com listras pretas",
-      "title": "Cat Tee Black T-Shirt"
+      "title": "Cat Tee Black T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "14/15 s/nº",
@@ -89,10 +122,14 @@
       "price": 10.9,
       "sku": 18644119330491310,
       "style": "Preta com listras brancas",
-      "title": "Sphynx Tie Dye Grey T-Shirt"
+      "title": "Sphynx Tie Dye Grey T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L"],
+      "availableSizes": [
+        "X",
+        "L"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "14/15 s/nº",
@@ -102,10 +139,14 @@
       "price": 14.9,
       "sku": 11854078013954528,
       "style": "Branco com listras pretas",
-      "title": "Danger Knife Grey"
+      "title": "Danger Knife Grey",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L"],
+      "availableSizes": [
+        "X",
+        "L"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "2014 s/nº",
@@ -115,10 +156,13 @@
       "price": 14.9,
       "sku": 876661122392077,
       "style": "Preto com listras brancas",
-      "title": "White DGK Script Tee"
+      "title": "White DGK Script Tee",
+      "quntity": 1
     },
     {
-      "availableSizes": ["XL"],
+      "availableSizes": [
+        "XL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "14/15 s/nº - Jogador",
@@ -128,10 +172,15 @@
       "price": 25.9,
       "sku": 9197907543445676,
       "style": "Branco com listras pretas",
-      "title": "Born On The Streets"
+      "title": "Born On The Streets",
+      "quntity": 1
     },
     {
-      "availableSizes": ["X", "L", "XL"],
+      "availableSizes": [
+        "X",
+        "L",
+        "XL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "14/15 + Camiseta 1º Mundial",
@@ -141,10 +190,14 @@
       "price": 10.9,
       "sku": 10547961582846888,
       "style": "Preto",
-      "title": "Tso 3D Short Sleeve T-Shirt A"
+      "title": "Tso 3D Short Sleeve T-Shirt A",
+      "quntity": 1
     },
     {
-      "availableSizes": ["XL", "XXL"],
+      "availableSizes": [
+        "XL",
+        "XXL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "Goleiro 13/14",
@@ -154,10 +207,13 @@
       "price": 49.9,
       "sku": 6090484789343891,
       "style": "Branco",
-      "title": "Man Tie Dye Cinza Grey T-Shirt"
+      "title": "Man Tie Dye Cinza Grey T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["S"],
+      "availableSizes": [
+        "S"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "1977 Infantil",
@@ -167,10 +223,13 @@
       "price": 22.5,
       "sku": 18532669286405344,
       "style": "Preto com listras brancas",
-      "title": "Crazy Monkey Black T-Shirt"
+      "title": "Crazy Monkey Black T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["XL"],
+      "availableSizes": [
+        "XL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "",
@@ -180,10 +239,14 @@
       "price": 18.7,
       "sku": 5619496040738316,
       "style": "Azul escuro",
-      "title": "Tso 3D Black T-Shirt"
+      "title": "Tso 3D Black T-Shirt",
+      "quntity": 1
     },
     {
-      "availableSizes": ["L", "XL"],
+      "availableSizes": [
+        "L",
+        "XL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "",
@@ -193,10 +256,14 @@
       "price": 134.9,
       "sku": 11600983276356164,
       "style": "",
-      "title": "Crazy Monkey Grey"
+      "title": "Crazy Monkey Grey",
+      "quntity": 1
     },
     {
-      "availableSizes": ["L", "XL"],
+      "availableSizes": [
+        "L",
+        "XL"
+      ],
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "",
@@ -206,7 +273,8 @@
       "price": 49,
       "sku": 27250082398145996,
       "style": "",
-      "title": "On The Streets Black T-Shirt"
+      "title": "On The Streets Black T-Shirt",
+      "quntity": 1
     }
   ]
 }
